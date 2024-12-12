@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('./pic/background.webp') no-repeat center center/cover;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size:larger;
+    text-align: left;
+
+}
+
+.login {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.login .login-button {
+    padding: 15px 45px;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #d6d2d2 0%, #ffffff 51%, #ffffff 100%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+.create-account {
+    margin-top: 30px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+}
